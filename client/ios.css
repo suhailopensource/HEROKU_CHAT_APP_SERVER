@@ -1,0 +1,106 @@
+h1{
+  margin-top: 12px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  margin-top: -93px;
+}
+
+body {
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgb(90, 255, 90)) no-repeat;
+  height: 97vh;
+}
+
+.container {
+  max-width: 955px;
+  border-radius: 10px;
+  margin: auto;
+  height: 60vh;
+  border: 2px solid black;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  margin-top: -55px;
+}
+
+.message {
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.left {
+  float: left;
+  clear: both;
+  color: #fff;
+  font-weight: 700 !important;
+  background:linear-gradient(-45deg,rgb(192, 192, 192),rgb(46, 46, 46));
+  border-bottom-left-radius: 0px !important;
+}
+
+.right {
+  background: linear-gradient(45deg, rgb(21, 206, 5), rgb(255, 255, 255));
+  font-weight: 600 !important;
+  float: right;
+  clear: both;
+  border-bottom-right-radius: 0px !important;
+}
+
+#send_container {
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#message_inp {
+  width: 92%;
+  outline: none;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 70, 0);
+  height: 34px;
+  line-height: 2px;
+  background: rgb(203, 255, 203);
+  padding: 0 15px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 39px;
+  line-height: 14px;
+  width: 40px;
+  border: none;
+  padding: 10px;
+  background: #fff;
+}
+
+ion-icon {
+  color: rgb(0, 184, 0);
+}
+
+@media(max-width: 966px){
+  #message_inp{
+      width:80%;
+  }   
+}
+@media(max-width: 396px){
+  #message_inp{
+      width:70%;
+  }   
+}
+@media(max-width: 269px){
+  #message_inp{
+      width:60%;
+  }   
+}
