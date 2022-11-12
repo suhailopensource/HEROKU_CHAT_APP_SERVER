@@ -13,6 +13,7 @@ const append = (message, position) => {
   if (position == 'left') {
       audio.play();
   }
+  messageContainer.scrollTop = messageContainer.scrollHeight;
 }
 
 form.addEventListener('submit', (e) => {
